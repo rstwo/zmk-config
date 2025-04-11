@@ -35,28 +35,28 @@
             timeout-ms = <50>;
             key-positions = <30 31>;
             layers = <0>;
-            bindings = <&lt _FUN DEL>;
+            bindings = <&lt 9 DEL>;
         };
         
         combo_rthumb_base {
             timeout-ms = <50>;
             key-positions = <32 33>;
             layers = <0>;
-            bindings = <&lt _MEDIA ESC>;
+            bindings = <&lt 6 ESC>;
         };
         
         combo_lthumb_extra {
             timeout-ms = <50>;
             key-positions = <30 31>;
             layers = <_EXTRA>;
-            bindings = <&lt _FUN DEL>;
+            bindings = <&lt 9 DEL>;
         };
         
         combo_rthumb_extra {
             timeout-ms = <50>;
             key-positions = <32 33>;
             layers = <1>;
-            bindings = <&lt _MEDIA ESC>;
+            bindings = <&lt 6 ESC>;
         };
 
         combo_lthumb_button {
