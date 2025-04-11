@@ -183,7 +183,7 @@
             bindings = <&none>, <&to 8>;
         };
 
-        td_sym: tap_dance_fun {
+        td_fun: tap_dance_fun {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
