@@ -6,24 +6,24 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define _BASE   = 0
-#define _EXTRA  = 1
-#define _TAP    = 2
-#define _BUTTON = 3
-#define _NAV    = 4
-#define _MOUSE  = 5
-#define _MEDIA  = 6
-#define _NUM    = 7
-#define _SYM    = 8
-#define _FUN    = 9
+#define BASE   = 0
+#define EXTRA  = 1
+#define TAP    = 2
+#define BUTTON = 3
+#define NAV    = 4
+#define MOUSE  = 5
+#define MEDIA  = 6
+#define NUM    = 7
+#define SYM    = 8
+#define FUN    = 9
 
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LCTRL k1  &ht LALT k2  &ht LGUI k3  &ht LSHFT k4  
 #define HRMR(k1,k2,k3,k4) &ht RSHFT k1  &ht RGUI k2  &ht RALT k3  &ht RCTRL k4
 // Thumb row layer tap macro
-#define TRLL(k1,k2) &lt _SYM k1  &lt _NAV k2
-#define TRLR(k1,k2) &lt _NAV k1  &lt _MOUSE k2
+#define TRLL(k1,k2) &lt SYM k1  &lt NAV k2
+#define TRLR(k1,k2) &lt NAV k1  &lt MOUSE k2
 
 
 / {
@@ -195,7 +195,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-        _BASE {
+        BASE {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
@@ -209,7 +209,7 @@
             >;
         };
 
-        _EXTRA {
+        EXTRA {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
@@ -224,7 +224,7 @@
         };
 
         // based on miryoku tap QWERTY flip
-        _TAP {
+        TAP {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
              &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
@@ -238,7 +238,7 @@
             >;
         };
 
-        _BUTTON {
+        BUTTON {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &LG(Z)      &LG(X)    &LG(C)      &LG(V)   &LS(&LG(Z))   &LS(&LG(Z))   &LG(V)     &LG(C)     &LG(X)     &LG(Z)
@@ -253,7 +253,7 @@
         };
 
         // based on MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP  and  MIRYOKU_CLIPBOARD_MAC
-        _NAV {
+        NAV {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
            &kp PG_UP   &kp HOME   &kp UP      &kp END   &kp INS         &none     &td_base   &td_extra  &td_tap    &td_boot
@@ -268,7 +268,7 @@
         };
         
         // based on MIRYOKU_ALTERNATIVES_MOUSE_INVERTEDT_FLIP  and  MIRYOKU_CLIPBOARD_MAC
-        _MOUSE {
+        MOUSE {
             bindings = <
         //╭────────────────┬────────────────┬────────────────┬────────────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &msc SCROLL_UP  &msc SCROLL_LEFT   &mmv MOVE_UP  &msc SCROLL_RIGHT   &none          &none     &td_base   &td_extra  &td_tap    &td_boot
@@ -282,7 +282,7 @@
             >;
         };
 
-        _MEDIA {
+        MEDIA {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
              &none      &none   &kp C_VOL_UP  &none      &none          &none     &td_base   &td_extra  &td_tap    &td_boot
@@ -296,7 +296,7 @@
             >;
         };
 
-        _NUM {
+        NUM {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &td_boot   &td_tap   &td_extra   &td_base    &none         &kp LBKT    &kp N7     &kp N8     &kp N9    &kp RBKT
@@ -310,7 +310,7 @@
             >;
         };
 
-        _SYM {
+        SYM {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &td_boot   &td_tap   &td_extra   &td_base    &none         &kp LBRC   &kp AMPS  &kp ASTRK   &kp LPRN   &kp RBRC
@@ -324,7 +324,7 @@
             >;
         };
 
-        _FUN {
+        FUN {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &td_boot   &td_tap   &td_extra   &td_base    &none        &kp PSCRN    &kp F7     &kp F8     &kp F9    &kp F12 
