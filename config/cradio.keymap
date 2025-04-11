@@ -267,7 +267,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp PG_DN   &kp LEFT   &kp DOWN   &kp RIGHT &caps_word       &none    &kp LSHFT   &kp LGUI   &kp LALT   &kp LCTL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V) &kp LG(LS(Z))     &none     &td_nav    &kp LG(C)  &kp RALT    &none
+           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V) &kp LG(LS(Z))     &none     &td_nav    &td_num    &kp RALT    &none
 //           &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V) &kp LG(LS(Z))     $none     &td_nav    &td_num    &kp RALT    &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp BKSP  &kp ENTER        &none      &none
