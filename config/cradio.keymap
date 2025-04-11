@@ -329,7 +329,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp LCTRL   &kp LALT   &kp LGUI  &kp LSHFT    &none         &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &none     &kp RALT    &none     &none       &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &KP TILDE
+             &none     &kp RALT    &none     &none       &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &kp TILDE
 //             &none     &kp RALT   &td_nav    &td_num     &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &KP TILDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &none      &none        &kp UNDER   &kp LPRN
