@@ -131,56 +131,56 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _TAP>;
+            bindings = <&none>, <&to 2>;
         };
 
         td_extra: tap_dance_extra {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _EXTRA>;
+            bindings = <&none>, <&to 1>;
         };
 
         td_base: tap_dance_base {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _BASE>;
+            bindings = <&none>, <&to 0>;
         };
 
         td_nav: tap_dance_nav {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _NAV>;
+            bindings = <&none>, <&to 4>;
         };
 
         td_mouse: tap_dance_mouse {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _MOUSE>;
+            bindings = <&none>, <&to 5>;
         };
 
         td_sym: tap_dance_sym {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _SYM>;
+            bindings = <&none>, <&to 8>;
         };
 
         td_mouse: tap_dance_media {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _MEDIA>;
+            bindings = <&none>, <&to 6>;
         };
 
         td_sym: tap_dance_fun {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to _FUN>;
+            bindings = <&none>, <&to 9>;
         };
     };
 
