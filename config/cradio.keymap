@@ -162,7 +162,7 @@
             bindings = <&none>, <&to 5>;
         };
 
-        td_mouse: tap_dance_media {
+        td_media: tap_dance_media {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
