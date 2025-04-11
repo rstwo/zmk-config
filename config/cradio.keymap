@@ -33,77 +33,77 @@
         
         combo_lthumb_base {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_BASE>;
             bindings = <&lt _FUN DEL>;
         };
         
         combo_rthumb_base {
             timeout-ms = <50>;
-            key-positions = <32,33>;
+            key-positions = <32 33>;
             layers = <_BASE>;
             bindings = <&lt _MEDIA ESC>;
         };
         
         combo_lthumb_extra {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_EXTRA>;
             bindings = <&lt _FUN DEL>;
         };
         
         combo_rthumb_extra {
             timeout-ms = <50>;
-            key-positions = <32,33>;
+            key-positions = <32 33>;
             layers = <_EXTRA>;
             bindings = <&lt _MEDIA ESC>;
         };
         
         combo_lthumb_nav {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_NAV>;
             bindings = <&kp DEL>;
         };
         
         combo_lthumb_mouse {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_MOUSE>;
             bindings = <&mkp MCLK>;
         };
         
         combo_lthumb_media {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_MEDIA>;
             bindings = <&kp C_MUTE>;
         };
         
         combo_rthumb_num {
             timeout-ms = <50>;
-            key-positions = <32,33>;
+            key-positions = <32 33>;
             layers = <_NUM>;
             bindings = <&kp DOT>;
         };
         
         combo_rthumb_sym {
             timeout-ms = <50>;
-            key-positions = <32,33>;
+            key-positions = <32 33>;
             layers = <_SYM>;
             bindings = <&kp RPRN>;
         };
 
         combo_lthumb_button {
             timeout-ms = <50>;
-            key-positions = <30,31>;
+            key-positions = <30 31>;
             layers = <_BUTTON>;
             bindings = <&mkp MCLK>;
         };
         
         combo_rthumb_button {
             timeout-ms = <50>;
-            key-positions = <32,33>;
+            key-positions = <32 33>;
             layers = <_BUTTON>;
             bindings = <&mkp MCLK>;
         };
