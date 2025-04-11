@@ -48,7 +48,7 @@
         combo_lthumb_extra {
             timeout-ms = <50>;
             key-positions = <30 31>;
-            layers = <_EXTRA>;
+            layers = <1>;
             bindings = <&lt 9 DEL>;
         };
         
