@@ -314,7 +314,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp LCTRL   &kp LALT   &kp LGUI  &kp LSHFT    &none        &kp EQUAL    &kp N4     &kp N5     &kp N6    &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &none      &none      &none      &none      &none          &none    &td_media   &td_fun    &kp RALT    &none
+             &none      &none     &td_nav    &td_num     &none          &none     &td_media   &td_fun    &kp RALT    &none
 //             &none     &kp RALT   &td_nav    &td_num     &none         &kp BSLH    &kp N1     &kp N2     &kp N3    &kp SLSH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &none      &none        &kp MINUS    &kp N0
@@ -329,7 +329,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp LCTRL   &kp LALT   &kp LGUI  &kp LSHFT    &none         &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &none     &kp RALT    &none     &none       &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &kp TILDE
+             &none     &kp RALT   &td_mouse  &td_sym     &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &kp TILDE
 //             &none     &kp RALT   &td_nav    &td_num     &none         &kp PIPE   &kp EXCL   &kp AT     &kp HASH  &kp TILDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &none      &none        &kp UNDER   &kp LPRN
@@ -344,7 +344,7 @@
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
            &kp LCTRL   &kp LALT   &kp LGUI  &kp LSHFT    &none        &kp LSLCK    &kp F4     &kp F5     &kp F6    &kp F11
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &none     &kp RALT   &none      &none       &none      &kp PAUSE_BREAK &kp F1    &kp F2     &kp F3    &kp F10
+             &none     &kp RALT  &td_media   &td_fun     &none      &kp PAUSE_BREAK &kp F1    &kp F2     &kp F3    &kp F10
 //             &none     &kp RALT   &td_nav    &td_num     &none      &kp PAUSE_BREAK &kp F1    &kp F2     &kp F3    &kp F10
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                               &none      &none         &kp SPC   &kp K_MENU
