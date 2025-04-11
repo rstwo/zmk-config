@@ -127,11 +127,11 @@
             bindings = <&none>, <&bootloader>;
         };
 
-        td_tap: tap_dance_tap {
+        td_base: tap_dance_base {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to 2>;
+            bindings = <&none>, <&to 0>;
         };
 
         td_extra: tap_dance_extra {
@@ -141,11 +141,11 @@
             bindings = <&none>, <&to 1>;
         };
 
-        td_base: tap_dance_base {
+        td_tap: tap_dance_tap {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&to 0>;
+            bindings = <&none>, <&to 2>;
         };
 
         td_nav: tap_dance_nav {
@@ -162,18 +162,25 @@
             bindings = <&none>, <&to 5>;
         };
 
-        td_sym: tap_dance_sym {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&none>, <&to 8>;
-        };
-
         td_mouse: tap_dance_media {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&none>, <&to 6>;
+        };
+
+        td_num: tap_dance_num {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&to 7>;
+        };
+
+        td_sym: tap_dance_sym {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&to 8>;
         };
 
         td_sym: tap_dance_fun {
